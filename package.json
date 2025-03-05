@@ -6,11 +6,11 @@
   "homepage": "https://khaledmohamed44.github.io/m_pack22",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d .",
+    "deploy": "npx gh-pages -d .",
     "build": "echo 'No build step required'"
   },
-  "dependencies": {
-    "gh-pages": "^6.1.0"
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   },
   "repository": {
     "type": "git",
